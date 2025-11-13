@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --dark-blue :#252B42;
+  --skty-blue : #23A6F0;
+  --light-sky-blue : #b2e3ff;
+  --light-orange : #E77C40;
+  --red : #E74040;
+  --light-pink: #FFDCD1;
+  --light-gray: #737373;
+  --yellow: #f3cd03;
+  --green: #2DC071;
+  --light-green: #B9EAA8;
+
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+p{
+  line-height: 1.4;
+}
+/** Utility classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+/* header start */
+#header{
+  background-color: var(--dark-blue);
+}
+.navebar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1100px;
+margin: auto;
+padding: 0 2rem;
+height: 100px;
+}
+
+.navebar a{
+color: #fff;
+font-size: 14px;
+}
+.navebar .logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+.navebar ul{
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+  
+}
+.navebar ul li a {
+  transition: all 0.3s ease;
+  
+}
+
+.navebar ul :hover{
+  color: var(--red);
+}
+.navebar .account .btn-join{
+  background-color: var(--skty-blue);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 25px;
+  text-transform: uppercase;
+  
+}
+.navebar .account .btn-join svg {
+  font-size: 12px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+/* header end */
+
+/* MAIN START */
+/* HOME START */
+.home {
+  background-color: var(--dark-blue);
+  padding: 5rem 0;
+ 
+}
+.home .home-header{
+  text-align: center;
+  color: #fff;
+  max-width: 450px ;
+  margin: auto;
+}
+.home .home-header .btn{
+  padding:10px 30px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--red);
+  margin:0 5px;
+  }
+  .home .home-header .btn.btn-red{
+    color: #fff;
+    background-color: var(--red);
+  }
+  
+  .home .home-header .btn.btn-transparent{
+    color: #fff;
+  }
+  .home .home-header p{
+    margin-bottom:30px ;
+   color: var(--light-pink);
+  }
+.home-header span{
+  color: #E74040;
+  font-weight: 600;
+}
+.home .home-header h1{
+  font-size:40px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: var(--light-pink);
+}
+
+/* HOME end */
+/* MAIN end */
