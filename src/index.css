@@ -39,6 +39,11 @@ p{
   margin: auto;
   padding: 0 2rem;
 }
+.text-primary {
+  color: var(--skty-blue);
+  font-weight: 600;
+  font-size: 14px;
+}
 /* header start */
 #header{
   background-color: var(--dark-blue);
@@ -135,6 +140,66 @@ font-size: 14px;
   margin: 20px 0;
   color: var(--light-pink);
 }
+.home .card-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.home .card-container .card {
+  padding: 25px;
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.home .card-container .card .icon{
+  padding: 12px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.home .card-container .card .icon svg{
+  font-size: 25px  ;
+}
+.home .card-container .card h2{
+  font-size: 18px;
+  color: var(--dark-blue);
+  margin-top:12px ;
+}
+.home .card-container .card .line{
+  width: 50px;
+  height: 2px;
+  margin: 15px 0;
+  display: block;
+  background-color: var(--red);
+  margin: 15px 0;
+
+}
+.home .card-container .card p{
+  font-size: 14px;
+  color: var(--dark-blue);
+  
+
+}
+/* Courses start */
+.courses{
+  padding: 7rem 0;
+}
+.courses .section-header h2 {
+  font-size: 35px;
+  margin: 15px 0;
+  color: var(--dark-blue);
+}
+.courses .section-header p{
+  color: var(--light-gray);
+}
+
+.description {
+  white-space: pre-line;
+}
+
+
+/* Courses end */
+
 
 /* HOME end */
 /* MAIN end */
